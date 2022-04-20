@@ -8,12 +8,12 @@ public class ProbabilityText : MonoBehaviour
     public Game clicked;
 
     public TextMeshPro probability;
-    public double probabilitycount = 0.027; 
+    public double probabilitycount = 0.00625; 
     
     void Start()
     {
         clicked = FindObjectOfType(typeof(Game)) as Game;
-        probabilitycount= 0.027;
+        probabilitycount= 0.00625;
     }
 
     // Update is called once per frame

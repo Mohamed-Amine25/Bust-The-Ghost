@@ -40,7 +40,7 @@ public class WinLose : MonoBehaviour
                 Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     int a = Mathf.RoundToInt(mousePosition.x);
                     int b = Mathf.RoundToInt(mousePosition.y);
-                    if(a>5 || b >14 || a<0 || b<0)
+                    if(a>30 || b >30 || a<0 || b<0)
                      {      
               if(var.gx == var.lastcheckedX && var.gy== var.lastcheckedY ) 
                { 
