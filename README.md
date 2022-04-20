@@ -3,7 +3,7 @@
 
 ## Description
 In this project, we used Unity to implement/reproduce  "Bust the Ghost" game. <br />
-* Create a 6x 15 grid <br />
+* Create a 8x 20 grid <br />
 * Have the ghost be placed in one of the cells according to a prior distribution of Ghost over location P(Ghost). <br />
     * Use a uniform distribution to start with. <br />
 * when clicking  a cell, the player gets a color red/green/orange/yellow depending on how the far is the ghost is from the clicked cell. <br />
